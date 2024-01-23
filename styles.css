@@ -8,7 +8,7 @@ body {
 }
 
 /*Header*/
-.primera {
+.primera-seccion {
   width: 100%;
   max-height: 594px;
   background-color: #eeeeee;
@@ -23,34 +23,34 @@ body {
  
 }
 
-.pri-logo-uno {
+.logo-mio {
   width: 74px;
   height: 70px;
 }
 @media (min-width: 769px) {
-  .pri-logo-uno {
+  .logo-mio {
     width: 100px;
     height: 103px;
     margin: 10px 60px;
   }
 }
 
-.pri-logo-dos {
+.logo-dos {
   width: 46px;
   height: 42px;
   margin-top: 15px;
 }
 @media (min-width: 769px) {
-  .pri-logo-dos {
+  .logo-dos {
     display: none;
   }
 }
 
-.pri-menu {
+.menu {
   display: none;
 }
 @media (min-width: 769px) {
-  .pri-menu {
+  .menu {
     margin-right: 60px;
     display: grid;
     align-items: center;
@@ -59,13 +59,13 @@ body {
   }
 }
 
-.pri-info {
+.info {
   font-size: 24px;
   font-family: "Open Sans";
   color: #000000;
 }
 
-.pri-contenedor {
+.primer-contenedor {
   padding-top: 34px;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ body {
   gap: 38px;
 }
 @media (min-width: 769px) {
-  .pri-contenedor {
+  .primer-contenedor {
     padding-top: 90px;
     display: flex;
     justify-content: space-between;
@@ -81,17 +81,17 @@ body {
   }
 }
 
-.pri-titulo-contenedor {
+.titulo-contenedor {
   max-width: 291px;
 }
 @media (min-width: 769px) {
-  .pri-titulo-contenedor {
+  .titulo-contenedor {
     padding-bottom: 230px;
     padding-left: 90px;
   }
 }
 
-.pri-titulo {
+.primer-titulo {
   font-size: 48px;
   text-align: center;
   font-family: "Open Sans";
@@ -99,7 +99,7 @@ body {
   color: #000000;
 }
 @media (min-width: 769px) {
-  .pri-titulo {
+  .primer-titulo {
     text-align: start;
     font-size: 48px;
     text-align: center;
